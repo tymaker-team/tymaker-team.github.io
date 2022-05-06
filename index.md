@@ -1,4 +1,4 @@
-# tymaker.github.io
+# tymaker
 By Aarik
 
 You're welcome
