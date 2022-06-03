@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<link rel = "stylesheet" href = "style.css">
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div ng-app="">
+  <p>This is thxmaker. Please answer all questions in order.</p>
+  <p><input ng-model = "q1" placeholder = "Who are you writing to?"/><br /><input placeholder = "What gift did you get from {{q1}}? e.g.: shirt" ng-model = "q2" /><br /><input placeholder = "What kind of party did {{q1}} go to?" ng-model = "q3" /><br /><input placeholder = "What is your name?" ng-model = "q4"/><br /><input placeholder = "What is {{q1}} to you? Friend, parent, etc... Please do not include connectors." ng-model = "q5" /><br /><input placeholder = "How would you describe this {{q5}}? e.g.: a cool" ng-model = "q6" /><input placeholder = "What do you like doing with {{q1}}? e.g.: playing video games" ng-model = "q7" /><br /></p>
+  <p>Here is your letter:</p>
+  <p class = "letter">Dear {{q1}}, thank you so much for getting me my {{q2}}! Thank you for coming to my {{q3}}. I enjoy {{q7}} with you. You are {{q6}} {{q5}}! From, {{q4}}</p>
+</div>
+
+</body>
+</html>
